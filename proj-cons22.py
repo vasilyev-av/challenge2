@@ -23,7 +23,7 @@ try:
             parquet_name=f'hdfs://vm-dlake2-m-1.test.local/user/vasilev-av/data/cnt_{today}.parquet'
             df = spark.createDataFrame(lines, list(line.keys()))
             #df.show()
-            df.write.save(parquet_name, format='parquet', mode='overwrite')
+            df.write.save(parquet_name, format='parquet', mode='append')
             counter=1
             print("wrote a file")
 

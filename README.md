@@ -1,5 +1,5 @@
-# A final project for "Data Engineer" course by RTK.
-## Scripts developed to imitate & analyze behaviour of iptv-like-service users.
+### A support code for final project for "Data Engineer" course by RTK
+Scripts developed to imitate & analyze behaviour of iptv-like-service users
 
 *proj-prod.py* - generate random data imitating using of service and send it to Kafka
 
@@ -12,5 +12,3 @@
 *vasilev-av-iptv-load.py* - airflow dag launching data preparation and loading to Greenplum
 
 *XXXXX.sql* - all DDL & DML statments used in process
-
-
